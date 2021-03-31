@@ -1,0 +1,343 @@
+﻿* {margin:0px;
+}
+body {
+}
+ header {
+    width: 100%;
+    height: 170px;
+    background-color: #C7AE88;
+   
+    margin:0px;
+    position:absolute;
+    z-index:1;
+    position:fixed;
+}
+#dim { display:inline;
+      margin-left:50px;
+      margin-top:20px;
+    margin-right:50px;
+    float: left; }
+
+ 
+
+ul {
+    list-style-type: none;
+}
+menu > ul  > li {
+     float: left;
+      margin-left:20px;
+    margin-right:20px;
+     margin-bottom:20px;
+     margin-top:80px;
+   
+}
+li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+   
+
+
+}
+li a:hover {
+    
+    color: #FFFFFF;
+}
+
+#manyform {
+    position: absolute;
+    width: 100%;
+    height: 1050px;
+    top: 170px;
+    background-color: #FFCC99;
+}
+#head {
+    width: 500px;
+    top: 140px;
+    left: 130px;
+    position: absolute;
+    font-family: 'Led Italic Font';
+    font-size: 40px;
+    font-weight: lighter;
+    color: #000000;
+}
+#Text1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    position: absolute;
+    width: 1050px;
+    height: 50px;
+    top: 280px;
+    left: 130px;
+    border-radius: 7px;
+     color: #B19A91;
+    font-size: 20px;
+    font-weight: lighter;
+    padding:6PX;
+    padding-left:30PX;
+}
+ input:hover{
+    border-color: #8C5435;
+}
+#emel { border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    position: absolute;
+    width: 1050px;
+    height: 50px;
+    top: 380px;
+    left: 130px;
+    border-radius: 7px;
+     color: #B19A91;
+    font-size: 20px;
+    font-weight: lighter;
+    padding:6PX;
+    padding-left:30PX;
+}
+#phon { border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    position: absolute;
+    width: 1050px;
+    height: 50px;
+    top: 480px;
+    left: 130px;
+    border-radius: 7px;
+     color: #B19A91;
+    font-size: 20px;
+    font-weight: lighter;
+    padding:6PX;
+    padding-left:30PX;
+}
+#Text2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    position: absolute;
+    width: 1050px;
+    height: 200px;
+    top: 590px;
+    left: 130px;
+    border-radius: 7px;
+    color: #B19A91;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 30PX;
+}
+    #Text2 value {padding-top:5px;
+    }
+
+    #link a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #000000;
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    top: 900px;
+    left: 700px;
+    border-radius:7px;
+    padding:5px;
+    padding-top:20px;
+    padding-left:20px;
+}
+#link a:hover {
+    background-color: #666666;
+}
+#logo {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+#end {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 1170px;
+    background-color: #614A49;
+}
+#fec {  position: absolute;
+    left: 240px;
+    top: 100px;
+
+    
+}
+
+#partopfec {
+    position: absolute;
+    left: 230px;
+    top: 50px;
+    font-family: Constantia;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#twiter {
+    position: absolute;
+    left: 310px;
+    top:100px;
+     
+}
+#blok {
+    position: absolute;
+    width: 170px;
+    top: 30px;
+    left: 390px;
+   
+}
+    #blok li {
+         display: block;
+         margin:10px
+    }
+    #blok a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #E9D989;
+  
+}
+
+
+   
+#in { position: absolute;
+    left: 370px;
+    top: 100px;
+
+   
+}
+#blok a:hover {
+    color: #996633;
+}
+#parend {position: absolute;
+    width: 300px;
+    top: 60px;
+    left: 600px;
+}
+#num {
+    width: 300px;
+    top: 30px;
+    left: 670px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 33px;
+     color: #C7B9A6;
+}
+#linknum a {
+    text-decoration: none;
+  color: #C7B9A6;
+}
+#linknum a:hover {
+    color: #FFCC66;
+}
+#fromtop {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    float: left;
+    display: inline;
+    top: 70px;
+    left: 990px;
+    color: #C7B9A6;
+    font-size: 23px;
+}
+#emil a {
+    width: 200px;
+    height: 30px;
+    background-color: #6E5654;
+    color: #CDC582;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #BDB97C;
+    position: absolute;
+    top: 150px;
+    left: 970px;
+    font-family: AngsanaUPC;
+    font-size: 24px;
+}
+
+#emil a:hover {
+    background-color: #999999;
+}
+         
+    #parbotlin a {
+    text-decoration: none;
+}
+#immap {
+    position: absolute;
+    width: 300px;
+    top: 1470px;
+    width:100%;
+}
+#parbotlin {
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    color: #999999;
+    font-weight: bold;
+    font-family: Arial;
+}
+    #parbotlin a {
+    text-decoration: none;
+    color: #B99D65;
+}
+        #parbotlin a:hover {
+    color: #996633;
+}
+#bottmap {
+    position: absolute;
+    width: 100%;
+    top: 1690px;
+    height: 200px;
+    background-color: #614A49;
+}
+#head {
+    color: #000000;
+}
+    #optoin  { width: 150px;
+
+    color: #FFFFFF;
+    position: absolute;
+    top:75px;
+    left:320px;
+    display: none;
+    padding:0px;
+     margin:0px;
+        background-color: #614A49;
+        margin-top:20px;
+        clear:both;
+}
+ li:hover #optoin  {
+  
+    display:block;
+
+}
+  #optoin li   {
+  
+   padding:10px;
+
+}
+    #optoin li a {
+        color: #f8e61c;
+    }
+     
+ li #optoin li a:hover li  a  {
+   display:block;
+
+}
+ li #optoin li a:hover   {
+    background-color: #E6C80D;
+    color: #000000;
+   display:block;
+
+}
+ #optoin li:hover {
+    background-color: #E6C80D;
+}
+
+    
+
+ 
